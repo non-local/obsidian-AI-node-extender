@@ -7,4 +7,7 @@ on:
 
 jobs:
      build:
-       runs-on: u
+       runs-on: ubuntu-latest
+
+       steps:
+         - uses:
