@@ -23,4 +23,5 @@ jobs:
              npm run build
 
          - name: Create release
-        
+           env:
+             GITHUB_TOKEN: 
