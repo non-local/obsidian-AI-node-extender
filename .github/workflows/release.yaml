@@ -28,4 +28,5 @@ jobs:
            run: |
              tag="${GITHUB_REF#refs/tags/}"
 
-             gh release creat
+             gh release create "$tag" \
+               --title="$
