@@ -1,4 +1,6 @@
 {
 	"id": "canvas-llm-extender",
 	"name": "Canvas LLM Extender",
-	"ve
+	"version": "0.2",
+	"minAppVersion": "1.4.14",
+	"des
