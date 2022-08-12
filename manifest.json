@@ -5,4 +5,6 @@
 	"minAppVersion": "1.4.14",
 	"description": "Let the OpenAI LLVM add nodes to your canvas.",
 	"author": "Phasip",
-	"authorUrl": "https://github.com/phasip/canvas-llm-e
+	"authorUrl": "https://github.com/phasip/canvas-llm-extender",
+	"isDesktopOnly": false
+}
