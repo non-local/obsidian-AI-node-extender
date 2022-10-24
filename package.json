@@ -1,0 +1,16 @@
+
+{
+	"name": "obsidian-canvas-llm-extender",
+	"version": "0.2",
+	"description": "Let the OpenAI LLVM add nodes to your canvas.",
+	"main": "main.js",
+	"scripts": {
+		"lint": "eslint . --ext .ts",
+		"dev": "node esbuild.config.mjs",
+		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+		"version": "npx ts-node --esm external/obsidian-plugin-scripts/version-bump.mts && git add package.json package-lock.json manifest.json versions.json"
+	},
+	"keywords": [
+		"obsidian-plugin",
+		"typescript"
+	],
