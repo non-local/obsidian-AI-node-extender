@@ -1,3 +1,5 @@
 import { Plugin, Menu, MenuItem } from "obsidian";
 import {
-    addNodeCh
+    addNodeChild,
+    getNodeNeighbours,
+    isC
