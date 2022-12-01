@@ -3,4 +3,7 @@ import {
     addNodeChild,
     getNodeNeighbours,
     isCanvasNodeData
-} from "./obsidian-canvas-
+} from "./obsidian-canvas-utils";
+
+import {
+    notify
