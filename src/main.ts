@@ -2,4 +2,5 @@ import { Plugin, Menu, MenuItem } from "obsidian";
 import {
     addNodeChild,
     getNodeNeighbours,
-    isC
+    isCanvasNodeData
+} from "./obsidian-canvas-
