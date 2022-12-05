@@ -6,4 +6,7 @@ import {
 } from "./obsidian-canvas-utils";
 
 import {
-    notify
+    notifyError
+} from "./obsidian-helpers";
+
+im
