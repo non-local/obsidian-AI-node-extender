@@ -15,4 +15,5 @@ import {
 
 import {
     DEFAULT_SETTINGS,
-    CanvasLLMEx
+    CanvasLLMExtendPluginSettings,
+   
