@@ -14,4 +14,5 @@ import {
 } from "./openai-utils";
 
 import {
- 
+    DEFAULT_SETTINGS,
+    CanvasLLMEx
