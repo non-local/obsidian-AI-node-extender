@@ -17,4 +17,5 @@ import {
     DEFAULT_SETTINGS,
     CanvasLLMExtendPluginSettings,
     CanvasLLMExtendPluginSettingsTab
-} from "./
+} from "./settings";
+export default class Ca
