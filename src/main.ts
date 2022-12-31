@@ -19,4 +19,6 @@ import {
     CanvasLLMExtendPluginSettingsTab
 } from "./settings";
 export default class CanvasLLMExtendPlugin extends Plugin {
-    settings: CanvasLLMExtendPluginSettings
+    settings: CanvasLLMExtendPluginSettings;
+
+    async onload(
