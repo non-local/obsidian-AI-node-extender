@@ -18,4 +18,5 @@ import {
     CanvasLLMExtendPluginSettings,
     CanvasLLMExtendPluginSettingsTab
 } from "./settings";
-export default class CanvasLLMExtendPlugin extends Plugin 
+export default class CanvasLLMExtendPlugin extends Plugin {
+    settings: CanvasLLMExtendPluginSettings
