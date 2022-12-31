@@ -21,4 +21,6 @@ import {
 export default class CanvasLLMExtendPlugin extends Plugin {
     settings: CanvasLLMExtendPluginSettings;
 
-    async onload(
+    async onload() {
+        try {
+            await
