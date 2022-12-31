@@ -23,4 +23,5 @@ export default class CanvasLLMExtendPlugin extends Plugin {
 
     async onload() {
         try {
-            await
+            await this.loadSettings();
+        } catch (er
