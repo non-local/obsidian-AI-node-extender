@@ -16,4 +16,5 @@ import {
 import {
     DEFAULT_SETTINGS,
     CanvasLLMExtendPluginSettings,
-   
+    CanvasLLMExtendPluginSettingsTab
+} from "./
