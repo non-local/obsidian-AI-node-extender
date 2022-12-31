@@ -18,4 +18,4 @@ import {
     CanvasLLMExtendPluginSettings,
     CanvasLLMExtendPluginSettingsTab
 } from "./settings";
-export default class Ca
+export default class CanvasLLMExtendPlugin extends Plugin 
