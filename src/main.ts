@@ -26,4 +26,7 @@ export default class CanvasLLMExtendPlugin extends Plugin {
             await this.loadSettings();
         } catch (error) {
             notifyError(`Error loading settings: ${error}`);
-        
+        }
+
+          
+        // Add a new 
