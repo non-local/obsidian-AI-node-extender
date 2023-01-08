@@ -29,4 +29,5 @@ export default class CanvasLLMExtendPlugin extends Plugin {
         }
 
           
-        // Add a new 
+        // Add a new menu item to the canvas node menu
+     
