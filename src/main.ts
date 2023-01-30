@@ -33,4 +33,5 @@ export default class CanvasLLMExtendPlugin extends Plugin {
         this.registerEvent(this.app.workspace.on("canvas:node-menu", (menu: Menu, node: unknown) => {
                 menu.addItem((i: MenuItem) => {
                     i.setSection("canvasLLMExtend");
-                    i.setTitl
+                    i.setTitle("LLM Extend");
+         
