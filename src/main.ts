@@ -30,4 +30,5 @@ export default class CanvasLLMExtendPlugin extends Plugin {
 
           
         // Add a new menu item to the canvas node menu
-        this.registerEvent(this.app.workspace.on("canvas:node-menu", (menu: Menu, node: unk
+        this.registerEvent(this.app.workspace.on("canvas:node-menu", (menu: Menu, node: unknown) => {
+                menu.add
