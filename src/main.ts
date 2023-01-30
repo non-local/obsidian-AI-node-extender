@@ -35,4 +35,5 @@ export default class CanvasLLMExtendPlugin extends Plugin {
                     i.setSection("canvasLLMExtend");
                     i.setTitle("LLM Extend");
                     i.onClick((_e: unknown) => {
-                        thi
+                        this.extendNode(node);
+           
