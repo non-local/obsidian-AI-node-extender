@@ -38,4 +38,7 @@ export default class CanvasLLMExtendPlugin extends Plugin {
                         this.extendNode(node);
                     });
                 });
-      
+            }
+        ));
+
+        thi
