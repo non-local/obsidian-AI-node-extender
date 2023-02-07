@@ -42,3 +42,6 @@ export default class CanvasLLMExtendPlugin extends Plugin {
         ));
 
         this.addSettingTab(new CanvasLLMExtendPluginSettingsTab(this.app, this));
+    }
+
+    async extendNode(node: un
