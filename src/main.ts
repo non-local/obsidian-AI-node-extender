@@ -41,4 +41,4 @@ export default class CanvasLLMExtendPlugin extends Plugin {
             }
         ));
 
-        thi
+        this.addSettingTab(new CanvasLLMExtendPluginS
