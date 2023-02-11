@@ -44,4 +44,5 @@ export default class CanvasLLMExtendPlugin extends Plugin {
         this.addSettingTab(new CanvasLLMExtendPluginSettingsTab(this.app, this));
     }
 
-    async extendNode(node: un
+    async extendNode(node: unknown) {
+        if (!isCanvasNodeData(node
