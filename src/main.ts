@@ -45,4 +45,5 @@ export default class CanvasLLMExtendPlugin extends Plugin {
     }
 
     async extendNode(node: unknown) {
-        if (!isCanvasNodeData(node
+        if (!isCanvasNodeData(node)) {
+            notifyError("N
