@@ -47,4 +47,7 @@ export default class CanvasLLMExtendPlugin extends Plugin {
     async extendNode(node: unknown) {
         if (!isCanvasNodeData(node)) {
             notifyError("Node is not Canvas Node");
-    
+            return;
+        }
+
+        co
