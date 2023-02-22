@@ -50,4 +50,5 @@ export default class CanvasLLMExtendPlugin extends Plugin {
             return;
         }
 
-        co
+        const d = getNodeNeighbours(node);
+ 
