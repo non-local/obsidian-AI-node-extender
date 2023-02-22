@@ -52,4 +52,4 @@ export default class CanvasLLMExtendPlugin extends Plugin {
 
         const d = getNodeNeighbours(node);
         let prompt = `${this.settings.defaultPrompt}\n`;
-     
+        d.incoming.forEach(incoming => 
