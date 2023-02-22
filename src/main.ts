@@ -55,4 +55,6 @@ export default class CanvasLLMExtendPlugin extends Plugin {
         d.incoming.forEach(incoming => 
                 getNodeNeighbours(incoming).outgoing.forEach(sibling => 
                     prompt += `Sibling: ${sibling.text}\n`
-      
+                )
+            );
+     
