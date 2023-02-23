@@ -57,4 +57,4 @@ export default class CanvasLLMExtendPlugin extends Plugin {
                     prompt += `Sibling: ${sibling.text}\n`
                 )
             );
-     
+        d.incoming.forEach(incoming
