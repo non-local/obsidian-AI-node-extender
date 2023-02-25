@@ -58,4 +58,5 @@ export default class CanvasLLMExtendPlugin extends Plugin {
                 )
             );
         d.incoming.forEach(incoming => prompt += `Incoming: ${incoming.text}\n`);
-        prompt += `Mai
+        prompt += `Main: ${node.text}\n`;
+        d.outgoing.forEac
