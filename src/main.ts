@@ -61,4 +61,4 @@ export default class CanvasLLMExtendPlugin extends Plugin {
         prompt += `Main: ${node.text}\n`;
         d.outgoing.forEach(outgoing => prompt += `Outgoing: ${outgoing.text}\n`);
 
-        let r
+        let r = await openai_get_rep
