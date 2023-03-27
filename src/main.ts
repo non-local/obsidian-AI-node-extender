@@ -62,4 +62,5 @@ export default class CanvasLLMExtendPlugin extends Plugin {
         d.outgoing.forEach(outgoing => prompt += `Outgoing: ${outgoing.text}\n`);
 
         let r = await openai_get_reply(prompt, this.settings.model, this.settings.temperature, this.settings.apiKey);
-        if (r == nul
+        if (r == null) {
+            notifyError("Faile
