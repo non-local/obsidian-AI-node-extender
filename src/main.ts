@@ -63,4 +63,5 @@ export default class CanvasLLMExtendPlugin extends Plugin {
 
         let r = await openai_get_reply(prompt, this.settings.model, this.settings.temperature, this.settings.apiKey);
         if (r == null) {
-            notifyError("Faile
+            notifyError("Failed to get reply from OpenAI");
+     
