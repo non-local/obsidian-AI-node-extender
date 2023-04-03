@@ -67,4 +67,4 @@ export default class CanvasLLMExtendPlugin extends Plugin {
             return;
         }
 
-        const 
+        const banned = ["outgoing:", "new outg
