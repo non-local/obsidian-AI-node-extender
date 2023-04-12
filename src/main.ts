@@ -71,3 +71,7 @@ export default class CanvasLLMExtendPlugin extends Plugin {
         for (const banword of banned) {
             if (r.toLowerCase().startsWith(banword)) {
                 r = r.substring(banword.length);
+            }
+        }
+
+        addNo
