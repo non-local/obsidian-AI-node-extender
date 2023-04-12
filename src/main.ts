@@ -77,4 +77,5 @@ export default class CanvasLLMExtendPlugin extends Plugin {
         addNodeChild(node, r.trim());
     }
     
-    
+    async loadSettings() {
+        this.setti
