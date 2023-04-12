@@ -70,4 +70,4 @@ export default class CanvasLLMExtendPlugin extends Plugin {
         const banned = ["outgoing:", "new outgoing:","new outgoing node:","new node:","node:","additional item:","item:"];
         for (const banword of banned) {
             if (r.toLowerCase().startsWith(banword)) {
-      
+                r = r.substring(banword.length);
