@@ -74,4 +74,7 @@ export default class CanvasLLMExtendPlugin extends Plugin {
             }
         }
 
-        addNo
+        addNodeChild(node, r.trim());
+    }
+    
+    
