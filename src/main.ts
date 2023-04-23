@@ -82,4 +82,6 @@ export default class CanvasLLMExtendPlugin extends Plugin {
     }
 
     async saveSettings() {
-        await this.saveData
+        await this.saveData(this.settings);
+    }
+}
