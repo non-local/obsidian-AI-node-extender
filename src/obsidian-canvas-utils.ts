@@ -1,1 +1,3 @@
-import { CanvasNodeData, CanvasData } from "obsidi
+import { CanvasNodeData, CanvasData } from "obsidian/canvas";
+import {
+ 
