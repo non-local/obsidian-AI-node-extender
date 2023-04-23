@@ -81,4 +81,5 @@ export default class CanvasLLMExtendPlugin extends Plugin {
         this.settings = Object.assign({}, DEFAULT_SETTINGS, await this.loadData());
     }
 
-    async saveSet
+    async saveSettings() {
+        await this.saveData
