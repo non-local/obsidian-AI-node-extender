@@ -1,1 +1,1 @@
-import { CanvasNode
+import { CanvasNodeData, CanvasData } from "obsidi
