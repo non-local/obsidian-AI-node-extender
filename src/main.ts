@@ -78,4 +78,4 @@ export default class CanvasLLMExtendPlugin extends Plugin {
     }
     
     async loadSettings() {
-        this.setti
+        this.settings = Object.assign({}, DEFAULT_SETTINGS, a
