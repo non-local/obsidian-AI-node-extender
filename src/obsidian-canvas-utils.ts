@@ -3,4 +3,5 @@ import {
     notifyError
 } from "./obsidian-helpers";
 
-export function isCanvasNodeData(node: unknown): node is
+export function isCanvasNodeData(node: unknown): node is CanvasNodeData {
+    return node !
