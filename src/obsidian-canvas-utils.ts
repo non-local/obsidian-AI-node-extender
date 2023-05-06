@@ -8,3 +8,5 @@ export function isCanvasNodeData(node: unknown): node is CanvasNodeData {
 }
 
 interface Box {
+    x: number;
+    y: number
