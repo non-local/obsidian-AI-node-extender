@@ -14,4 +14,5 @@ interface Box {
     height: number;
   }
 
-export function isBox(n
+export function isBox(node: unknown): node is Box {
+    retu
