@@ -16,4 +16,5 @@ interface Box {
 
 export function isBox(node: unknown): node is Box {
     return node !== null && 
-          typeof n
+          typeof node === "object" && 
+         
