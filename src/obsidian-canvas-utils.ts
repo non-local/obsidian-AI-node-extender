@@ -15,4 +15,5 @@ interface Box {
   }
 
 export function isBox(node: unknown): node is Box {
-    retu
+    return node !== null && 
+          typeof n
