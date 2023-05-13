@@ -18,4 +18,5 @@ export function isBox(node: unknown): node is Box {
     return node !== null && 
           typeof node === "object" && 
           "x" in node && 
-          "y" 
+          "y" in node && 
+          "width" in node 
