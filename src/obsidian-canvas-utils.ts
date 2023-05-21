@@ -23,4 +23,5 @@ export function isBox(node: unknown): node is Box {
           "height" in node;
 }
 
-// Given node, return nodes w
+// Given node, return nodes with edges to this node
+// {i
