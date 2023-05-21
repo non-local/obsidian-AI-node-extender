@@ -23,4 +23,4 @@ export function isBox(node: unknown): node is Box {
           "height" in node;
 }
 
-// 
+// Given node, return nodes w
