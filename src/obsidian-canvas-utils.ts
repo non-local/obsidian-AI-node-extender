@@ -25,4 +25,4 @@ export function isBox(node: unknown): node is Box {
 
 // Given node, return nodes with edges to this node
 // {incoming: [nodes...], outgoing: [nodes...]}
-export function get
+export function getNodeNeighbours(node: CanvasNod
