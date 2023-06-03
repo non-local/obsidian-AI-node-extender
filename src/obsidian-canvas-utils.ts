@@ -29,4 +29,5 @@ export function getNodeNeighbours(node: CanvasNodeData) {
     const incoming = []
     const outgoing = []
     for (const edge of node.canvas.edges.values()) {
-        
+        if (edge.from.node.id == node.id) {
+    
