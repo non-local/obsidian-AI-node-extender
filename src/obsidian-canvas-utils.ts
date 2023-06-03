@@ -28,4 +28,5 @@ export function isBox(node: unknown): node is Box {
 export function getNodeNeighbours(node: CanvasNodeData) {
     const incoming = []
     const outgoing = []
-    for (const edge of node.canvas
+    for (const edge of node.canvas.edges.values()) {
+        
