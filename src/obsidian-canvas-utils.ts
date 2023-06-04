@@ -32,4 +32,7 @@ export function getNodeNeighbours(node: CanvasNodeData) {
         if (edge.from.node.id == node.id) {
             outgoing.push(edge.to.node)
         } else if (edge.to.node.id == node.id) {
-           
+            incoming.push(edge.from.node)
+        }
+    }
+   
