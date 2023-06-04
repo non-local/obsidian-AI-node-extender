@@ -35,4 +35,5 @@ export function getNodeNeighbours(node: CanvasNodeData) {
             incoming.push(edge.from.node)
         }
     }
-   
+    return {
+        incoming: 
