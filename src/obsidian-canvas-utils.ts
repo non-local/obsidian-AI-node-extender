@@ -36,4 +36,6 @@ export function getNodeNeighbours(node: CanvasNodeData) {
         }
     }
     return {
-        incoming: 
+        incoming: incoming, 
+        outgoing: outgoing
+ 
