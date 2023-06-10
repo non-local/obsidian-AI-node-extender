@@ -38,4 +38,7 @@ export function getNodeNeighbours(node: CanvasNodeData) {
     return {
         incoming: incoming, 
         outgoing: outgoing
- 
+    }
+}
+
+// Random (not se
