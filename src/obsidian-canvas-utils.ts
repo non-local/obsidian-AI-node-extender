@@ -41,4 +41,5 @@ export function getNodeNeighbours(node: CanvasNodeData) {
     }
 }
 
-// Random (not se
+// Random (not secure!) 16 character id  
+function 
