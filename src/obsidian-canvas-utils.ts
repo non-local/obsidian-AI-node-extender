@@ -42,4 +42,5 @@ export function getNodeNeighbours(node: CanvasNodeData) {
 }
 
 // Random (not secure!) 16 character id  
-function 
+function generate_id(): string {
+    const
