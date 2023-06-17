@@ -44,4 +44,5 @@ export function getNodeNeighbours(node: CanvasNodeData) {
 // Random (not secure!) 16 character id  
 function generate_id(): string {
     const t = [];
-    for (let n = 0; n < 16
+    for (let n = 0; n < 16; n++) {
+        t.push((16 * Math
