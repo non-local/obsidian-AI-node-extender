@@ -47,4 +47,7 @@ function generate_id(): string {
     for (let n = 0; n < 16; n++) {
         t.push((16 * Math.random() | 0).toString(16));
     }
-   
+    return t.join("")
+}
+
+// Returns true if node
