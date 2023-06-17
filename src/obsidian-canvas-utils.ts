@@ -45,4 +45,6 @@ export function getNodeNeighbours(node: CanvasNodeData) {
 function generate_id(): string {
     const t = [];
     for (let n = 0; n < 16; n++) {
-        t.push((16 * Math
+        t.push((16 * Math.random() | 0).toString(16));
+    }
+   
