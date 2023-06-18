@@ -50,4 +50,5 @@ function generate_id(): string {
     return t.join("")
 }
 
-// Returns true if node
+// Returns true if node1 and node2 overlap
+function overlaps(nod
