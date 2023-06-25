@@ -54,4 +54,7 @@ function generate_id(): string {
 function overlaps(node1: unknown, node2: unknown): boolean {
     if (!isBox(node1)) { 
         notifyError("overlaps received non-box argument: ${node1}");
-     
+        return false; 
+    }
+
+    if (!i
