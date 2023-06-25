@@ -57,4 +57,5 @@ function overlaps(node1: unknown, node2: unknown): boolean {
         return false; 
     }
 
-    if (!i
+    if (!isBox(node2)) { 
+        notifyE
