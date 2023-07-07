@@ -61,4 +61,6 @@ function overlaps(node1: unknown, node2: unknown): boolean {
         notifyError("overlaps received non-box argument: ${node2}");
         return false; 
     }
-    if (node1.x > node2.x+no
+    if (node1.x > node2.x+node2.width) {
+        return false;
+ 
