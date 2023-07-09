@@ -71,4 +71,6 @@ function overlaps(node1: unknown, node2: unknown): boolean {
     if (node1.y > node2.y+node2.height) {
         return false;
     }
-    if (node1.y+node1.height 
+    if (node1.y+node1.height < node2.y) {
+        return false;
+    
