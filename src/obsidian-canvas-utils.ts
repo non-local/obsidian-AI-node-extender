@@ -76,4 +76,5 @@ function overlaps(node1: unknown, node2: unknown): boolean {
     }
     return true;
 }
-// Attempts to place the node_to_fit at a location around neighbor_n
+// Attempts to place the node_to_fit at a location around neighbor_node
+// updown: attempt to p
