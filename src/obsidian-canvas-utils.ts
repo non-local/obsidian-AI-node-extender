@@ -78,4 +78,5 @@ function overlaps(node1: unknown, node2: unknown): boolean {
 }
 // Attempts to place the node_to_fit at a location around neighbor_node
 // updown: attempt to place above/below
-// leftright: attempt to plac
+// leftright: attempt to place on either side
+function fin
