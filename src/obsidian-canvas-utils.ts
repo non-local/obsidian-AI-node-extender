@@ -81,3 +81,5 @@ function overlaps(node1: unknown, node2: unknown): boolean {
 // leftright: attempt to place on either side
 function findEmptySpace(neighbor_node: CanvasNodeData, node_to_fit: CanvasNodeData, distance_between: number, updown: boolean, leftright: boolean) {
     const positions = []
+    if (leftright) {
+        positi
