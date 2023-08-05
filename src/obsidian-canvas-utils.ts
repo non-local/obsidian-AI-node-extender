@@ -86,4 +86,4 @@ function findEmptySpace(neighbor_node: CanvasNodeData, node_to_fit: CanvasNodeDa
                        {x: neighbor_node.x-distance_between-neighbor_node.width, y: neighbor_node.y})
     }
     if (updown) {
-        positions.push({x: neighbor_node.x, y: neighbor
+        positions.push({x: neighbor_node.x, y: neighbor_node.y+neighbor_node.height+dista
