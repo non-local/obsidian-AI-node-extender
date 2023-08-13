@@ -90,4 +90,5 @@ function findEmptySpace(neighbor_node: CanvasNodeData, node_to_fit: CanvasNodeDa
                        {x: neighbor_node.x, y: neighbor_node.y-neighbor_node.height-distance_between})
     }
     posloop:
-    for (const
+    for (const pos of positions) {
+        const nodet
