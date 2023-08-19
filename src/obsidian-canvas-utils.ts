@@ -93,4 +93,5 @@ function findEmptySpace(neighbor_node: CanvasNodeData, node_to_fit: CanvasNodeDa
     for (const pos of positions) {
         const nodetemp = {x: pos.x, y:pos.y, width: node_to_fit.width, height: node_to_fit.height}
         for (const node of neighbor_node.canvas.nodes.values()) {
-            if (node.id == node_to_fit
+            if (node.id == node_to_fit.id) { continue; }
+        
