@@ -95,4 +95,6 @@ function findEmptySpace(neighbor_node: CanvasNodeData, node_to_fit: CanvasNodeDa
         for (const node of neighbor_node.canvas.nodes.values()) {
             if (node.id == node_to_fit.id) { continue; }
             if (overlaps(node, nodetemp)) { continue posloop; }
-      
+        }
+        // Nobody overlaps
+    
