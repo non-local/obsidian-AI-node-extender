@@ -98,4 +98,6 @@ function findEmptySpace(neighbor_node: CanvasNodeData, node_to_fit: CanvasNodeDa
         }
         // Nobody overlaps
         node_to_fit.moveTo({x: nodetemp.x, y: nodetemp.y})
-    
+        return true;
+    }
+    return 
