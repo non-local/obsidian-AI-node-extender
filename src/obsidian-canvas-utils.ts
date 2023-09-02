@@ -104,4 +104,4 @@ function findEmptySpace(neighbor_node: CanvasNodeData, node_to_fit: CanvasNodeDa
 }
 
 // TODO Ugly hack to get some approx size of the textbox
-// TODO: textsizenode only needed as getComputedStyle for our
+// TODO: textsizenode only needed as getComputedStyle for our node won't return anything yet & Ob
