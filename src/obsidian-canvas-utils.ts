@@ -106,4 +106,5 @@ function findEmptySpace(neighbor_node: CanvasNodeData, node_to_fit: CanvasNodeDa
 // TODO Ugly hack to get some approx size of the textbox
 // TODO: textsizenode only needed as getComputedStyle for our node won't return anything yet & Obsidian lacks API for this (?)
 function fitToText(node: CanvasNodeData, width: number, textsizenode: CanvasNodeData) {
-    //console.log("Fitting based on nodeStyle ", textsizenode
+    //console.log("Fitting based on nodeStyle ", textsizenode.nodeEl);
+    const compStyle = window.g
