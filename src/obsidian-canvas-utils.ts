@@ -108,4 +108,5 @@ function findEmptySpace(neighbor_node: CanvasNodeData, node_to_fit: CanvasNodeDa
 function fitToText(node: CanvasNodeData, width: number, textsizenode: CanvasNodeData) {
     //console.log("Fitting based on nodeStyle ", textsizenode.nodeEl);
     const compStyle = window.getComputedStyle(textsizenode.nodeEl);
-    const lineHeight = parseFloat(compStyle.lineHeight) || 19; //TODO: 19 just matches what was
+    const lineHeight = parseFloat(compStyle.lineHeight) || 19; //TODO: 19 just matches what was on my computer
+    // TODO: Th
