@@ -109,4 +109,5 @@ function fitToText(node: CanvasNodeData, width: number, textsizenode: CanvasNode
     //console.log("Fitting based on nodeStyle ", textsizenode.nodeEl);
     const compStyle = window.getComputedStyle(textsizenode.nodeEl);
     const lineHeight = parseFloat(compStyle.lineHeight) || 19; //TODO: 19 just matches what was on my computer
-    // TODO: Th
+    // TODO: This ignore seems unneeded
+    // 
