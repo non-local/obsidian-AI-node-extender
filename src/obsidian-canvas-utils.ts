@@ -110,4 +110,5 @@ function fitToText(node: CanvasNodeData, width: number, textsizenode: CanvasNode
     const compStyle = window.getComputedStyle(textsizenode.nodeEl);
     const lineHeight = parseFloat(compStyle.lineHeight) || 19; //TODO: 19 just matches what was on my computer
     // TODO: This ignore seems unneeded
-    // @ts-ignore: Not sure what the nice wa
+    // @ts-ignore: Not sure what the nice way to solve this is
+    const htmlCanva
