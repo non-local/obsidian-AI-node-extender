@@ -112,4 +112,5 @@ function fitToText(node: CanvasNodeData, width: number, textsizenode: CanvasNode
     // TODO: This ignore seems unneeded
     // @ts-ignore: Not sure what the nice way to solve this is
     const htmlCanvas = fitToText.htmlCanvas || (fitToText.htmlCanvas = document.createElement("canvas"));
-    const context = htmlCanva
+    const context = htmlCanvas.getContext('2d');
+    context.
