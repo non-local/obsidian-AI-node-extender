@@ -113,4 +113,5 @@ function fitToText(node: CanvasNodeData, width: number, textsizenode: CanvasNode
     // @ts-ignore: Not sure what the nice way to solve this is
     const htmlCanvas = fitToText.htmlCanvas || (fitToText.htmlCanvas = document.createElement("canvas"));
     const context = htmlCanvas.getContext('2d');
-    context.
+    context.font = compStyle.font;
+    c
