@@ -115,4 +115,4 @@ function fitToText(node: CanvasNodeData, width: number, textsizenode: CanvasNode
     const context = htmlCanvas.getContext('2d');
     context.font = compStyle.font;
     const lineWidth = context.measureText(node.text).width;
-    // T
+    // TODO: Implement flag for debug outp
