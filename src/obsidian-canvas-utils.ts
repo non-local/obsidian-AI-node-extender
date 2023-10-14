@@ -117,4 +117,4 @@ function fitToText(node: CanvasNodeData, width: number, textsizenode: CanvasNode
     const lineWidth = context.measureText(node.text).width;
     // TODO: Implement flag for debug output
     //console.log("LineHeight is ",lineHeight, "Width is ",width, " Linewidth: ",lineWidth)
-    c
+    const height = ((lineWidth/width
