@@ -118,4 +118,7 @@ function fitToText(node: CanvasNodeData, width: number, textsizenode: CanvasNode
     // TODO: Implement flag for debug output
     //console.log("LineHeight is ",lineHeight, "Width is ",width, " Linewidth: ",lineWidth)
     const height = ((lineWidth/width)+2)*lineHeight;
-    node.resize({width: width, height: heigh
+    node.resize({width: width, height: height});
+  }
+
+export function create
