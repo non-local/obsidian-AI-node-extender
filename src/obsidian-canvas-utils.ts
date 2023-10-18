@@ -121,4 +121,4 @@ function fitToText(node: CanvasNodeData, width: number, textsizenode: CanvasNode
     node.resize({width: width, height: height});
   }
 
-export function create
+export function createNode(text: string, width: number, canv
