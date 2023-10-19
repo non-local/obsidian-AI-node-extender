@@ -122,4 +122,5 @@ function fitToText(node: CanvasNodeData, width: number, textsizenode: CanvasNode
   }
 
 export function createNode(text: string, width: number, canvas: CanvasData, textsizenode: CanvasNodeData): CanvasNodeData {
-    co
+    const cn = canvas.createTextNode({
+ 
