@@ -125,4 +125,7 @@ export function createNode(text: string, width: number, canvas: CanvasData, text
     const cn = canvas.createTextNode({
         text: text,
         pos: {
-  
+            x: 0,
+            y: 0,
+        },
+ 
