@@ -128,4 +128,6 @@ export function createNode(text: string, width: number, canvas: CanvasData, text
             x: 0,
             y: 0,
         },
- 
+        size: {
+            width: 1,
+      
