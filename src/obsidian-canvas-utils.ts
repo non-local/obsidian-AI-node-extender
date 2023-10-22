@@ -131,4 +131,6 @@ export function createNode(text: string, width: number, canvas: CanvasData, text
         size: {
             width: 1,
             height: 1
-        }
+        },
+        save: true,
+        focu
