@@ -133,4 +133,6 @@ export function createNode(text: string, width: number, canvas: CanvasData, text
             height: 1
         },
         save: true,
-        focu
+        focus: false,
+    });
+    canvas
