@@ -135,4 +135,5 @@ export function createNode(text: string, width: number, canvas: CanvasData, text
         save: true,
         focus: false,
     });
-    canvas
+    canvas.addNode(cn);
+    fitToText(cn, width, texts
