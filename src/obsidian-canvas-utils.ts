@@ -138,4 +138,8 @@ export function createNode(text: string, width: number, canvas: CanvasData, text
     canvas.addNode(cn);
     fitToText(cn, width, textsizenode);
     cn.attach();
-    return 
+    return cn
+    
+}
+
+// Creates an edge betwe
