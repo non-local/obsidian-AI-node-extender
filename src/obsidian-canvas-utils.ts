@@ -143,4 +143,4 @@ export function createNode(text: string, width: number, canvas: CanvasData, text
 }
 
 // Creates an edge between from and to.
-// Related can be none. If it is a node it should have an incoming edge from from. The edg
+// Related can be none. If it is a node it should have an incoming edge from from. The edge between from-to will be base
