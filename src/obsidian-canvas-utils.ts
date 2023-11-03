@@ -147,4 +147,5 @@ export function createNode(text: string, width: number, canvas: CanvasData, text
 export function createEdge(from: CanvasNodeData, to: CanvasNodeData, related:CanvasNodeData, canvas: CanvasData) {
     let edge;
     for (edge of canvas.edges.values()) {
-        if (!related) { break
+        if (!related) { break; }
+        if (edge.from.node.id == from.i
