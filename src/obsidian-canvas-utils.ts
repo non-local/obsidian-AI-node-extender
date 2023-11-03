@@ -146,4 +146,4 @@ export function createNode(text: string, width: number, canvas: CanvasData, text
 // Related can be none. If it is a node it should have an incoming edge from from. The edge between from-to will be based (exit/entry side) on this edge
 export function createEdge(from: CanvasNodeData, to: CanvasNodeData, related:CanvasNodeData, canvas: CanvasData) {
     let edge;
-  
+    for (edge of canvas.edges.
