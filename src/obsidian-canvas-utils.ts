@@ -148,4 +148,4 @@ export function createEdge(from: CanvasNodeData, to: CanvasNodeData, related:Can
     let edge;
     for (edge of canvas.edges.values()) {
         if (!related) { break; }
-        if (edge.from.node.id == from.i
+        if (edge.from.node.id == from.id && edge.to.node.id == relat
