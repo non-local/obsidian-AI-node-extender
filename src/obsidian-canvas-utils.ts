@@ -151,3 +151,7 @@ export function createEdge(from: CanvasNodeData, to: CanvasNodeData, related:Can
         if (edge.from.node.id == from.id && edge.to.node.id == related.id) {
             break;
         }
+    }
+
+    if(!edge) {
+   
