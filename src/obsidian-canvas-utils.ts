@@ -157,4 +157,5 @@ export function createEdge(from: CanvasNodeData, to: CanvasNodeData, related:Can
         notifyError("Please add at least one arrow to your canvas.");
         return;
     }
-    // TODO: Obsidian API lacks edge constructio
+    // TODO: Obsidian API lacks edge construction?
+    // TODO: Calculate loca
