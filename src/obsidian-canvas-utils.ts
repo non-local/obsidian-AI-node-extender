@@ -155,4 +155,6 @@ export function createEdge(from: CanvasNodeData, to: CanvasNodeData, related:Can
 
     if(!edge) {
         notifyError("Please add at least one arrow to your canvas.");
-        
+        return;
+    }
+    // T
