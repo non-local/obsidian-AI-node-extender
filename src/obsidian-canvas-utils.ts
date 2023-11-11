@@ -158,4 +158,4 @@ export function createEdge(from: CanvasNodeData, to: CanvasNodeData, related:Can
         return;
     }
     // TODO: Obsidian API lacks edge construction?
-    // TODO: Calculate loca
+    // TODO: Calculate location of edge connection based on from/
