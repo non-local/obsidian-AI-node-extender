@@ -158,4 +158,5 @@ export function createEdge(from: CanvasNodeData, to: CanvasNodeData, related:Can
         return;
     }
     // TODO: Obsidian API lacks edge construction?
-    // TODO: Calculate location of edge connection based on from/
+    // TODO: Calculate location of edge connection based on from/to positions
+    // @ts-ignore: Wai
