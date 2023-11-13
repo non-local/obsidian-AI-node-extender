@@ -160,4 +160,4 @@ export function createEdge(from: CanvasNodeData, to: CanvasNodeData, related:Can
     // TODO: Obsidian API lacks edge construction?
     // TODO: Calculate location of edge connection based on from/to positions
     // @ts-ignore: Wait for the Obsidian API then fix this lack of proper constructor
-    const e = new e
+    const e = new edge.constructor(canvas, generate_id(
