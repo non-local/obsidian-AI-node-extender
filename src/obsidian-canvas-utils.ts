@@ -166,4 +166,5 @@ export function createEdge(from: CanvasNodeData, to: CanvasNodeData, related:Can
     e.render();
 }
 
-// Adds a child to the giv
+// Adds a child to the given node with given text
+// create
