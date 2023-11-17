@@ -163,4 +163,7 @@ export function createEdge(from: CanvasNodeData, to: CanvasNodeData, related:Can
     const e = new edge.constructor(canvas, generate_id(), {side: edge.from.side, node: from, end: "none"}, {side: edge.to.side, node: to, end: "arrow"})
     canvas.addEdge(e);
     e.attach();
-    e.render(
+    e.render();
+}
+
+// Adds a child to the giv
