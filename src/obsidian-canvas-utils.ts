@@ -168,4 +168,4 @@ export function createEdge(from: CanvasNodeData, to: CanvasNodeData, related:Can
 
 // Adds a child to the given node with given text
 // creates an outgoing edge from node to the new node
-// 
+// attempts to resize the node to fit the t
