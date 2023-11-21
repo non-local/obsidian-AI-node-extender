@@ -170,4 +170,5 @@ export function createEdge(from: CanvasNodeData, to: CanvasNodeData, related:Can
 // creates an outgoing edge from node to the new node
 // attempts to resize the node to fit the text
 export function addNodeChild(node: CanvasNodeData, nodetext: string) {
-    
+    // TODO: Add method to activate debug output
+    //console.log("Node wid
