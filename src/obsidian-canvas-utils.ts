@@ -171,4 +171,5 @@ export function createEdge(from: CanvasNodeData, to: CanvasNodeData, related:Can
 // attempts to resize the node to fit the text
 export function addNodeChild(node: CanvasNodeData, nodetext: string) {
     // TODO: Add method to activate debug output
-    //console.log("Node wid
+    //console.log("Node width: ", node.width)
+    const
