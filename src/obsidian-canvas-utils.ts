@@ -173,4 +173,6 @@ export function addNodeChild(node: CanvasNodeData, nodetext: string) {
     // TODO: Add method to activate debug output
     //console.log("Node width: ", node.width)
     const n = createNode(nodetext, node.width, node.canvas, node);
-    const n
+    const neighbors = getNodeNeighbours(node);
+
+
