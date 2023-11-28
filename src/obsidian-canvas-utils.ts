@@ -176,3 +176,4 @@ export function addNodeChild(node: CanvasNodeData, nodetext: string) {
     const neighbors = getNodeNeighbours(node);
 
 
+    // This element w
