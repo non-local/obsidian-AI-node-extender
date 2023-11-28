@@ -176,4 +176,5 @@ export function addNodeChild(node: CanvasNodeData, nodetext: string) {
     const neighbors = getNodeNeighbours(node);
 
 
-    // This element w
+    // This element will be placed in the middle
+    
