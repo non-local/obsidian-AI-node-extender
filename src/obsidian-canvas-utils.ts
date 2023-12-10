@@ -179,4 +179,5 @@ export function addNodeChild(node: CanvasNodeData, nodetext: string) {
     // This element will be placed in the middle
     const altorder = [{updown: true, leftright: false, node: node}]
     for (const sibling of neighbors.outgoing) {
-        //
+        // Push updown to beginning
+ 
