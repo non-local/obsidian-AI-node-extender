@@ -180,4 +180,5 @@ export function addNodeChild(node: CanvasNodeData, nodetext: string) {
     const altorder = [{updown: true, leftright: false, node: node}]
     for (const sibling of neighbors.outgoing) {
         // Push updown to beginning
-        altorder.unshift({updown: true, leftright: false, node: s
+        altorder.unshift({updown: true, leftright: false, node: sibling})
+        // Push l
