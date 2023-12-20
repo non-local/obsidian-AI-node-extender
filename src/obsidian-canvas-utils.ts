@@ -188,4 +188,4 @@ export function addNodeChild(node: CanvasNodeData, nodetext: string) {
     altorder.push({updown: false, leftright: true, node: node})
 
     for (const o of altorder) {
-        // TODO
+        // TODO 15 is distance between nodes, ma
