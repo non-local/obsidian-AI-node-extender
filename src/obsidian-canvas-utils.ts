@@ -185,4 +185,6 @@ export function addNodeChild(node: CanvasNodeData, nodetext: string) {
         altorder.push({updown: false, leftright: true, node: sibling})
     }
     
-    altorder.push({updown: false, l
+    altorder.push({updown: false, leftright: true, node: node})
+
+    for (const
