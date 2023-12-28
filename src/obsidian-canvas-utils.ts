@@ -190,4 +190,5 @@ export function addNodeChild(node: CanvasNodeData, nodetext: string) {
     for (const o of altorder) {
         // TODO 15 is distance between nodes, make constant or setting
         if (findEmptySpace(o.node, n, 15, o.updown, o.leftright)) {
-            createEdge(no
+            createEdge(node, n, o.node, node.canvas)
+          
