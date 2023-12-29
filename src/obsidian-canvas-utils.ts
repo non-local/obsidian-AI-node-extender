@@ -192,4 +192,5 @@ export function addNodeChild(node: CanvasNodeData, nodetext: string) {
         if (findEmptySpace(o.node, n, 15, o.updown, o.leftright)) {
             createEdge(node, n, o.node, node.canvas)
             // TODO: Not sure if needed
-          
+            n.render();
+            node.ca
