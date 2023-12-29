@@ -194,4 +194,7 @@ export function addNodeChild(node: CanvasNodeData, nodetext: string) {
             // TODO: Not sure if needed
             n.render();
             node.canvas.requestSave(true);
-            ret
+            return;
+        }
+    }
+    // 
