@@ -198,4 +198,6 @@ export function addNodeChild(node: CanvasNodeData, nodetext: string) {
         }
     }
     // TODO: Remove node if placement fails?
-    notifyError("No place for child n
+    notifyError("No place for child node");
+    
+}
