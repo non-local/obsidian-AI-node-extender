@@ -197,4 +197,5 @@ export function addNodeChild(node: CanvasNodeData, nodetext: string) {
             return;
         }
     }
-    // 
+    // TODO: Remove node if placement fails?
+    no
