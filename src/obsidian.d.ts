@@ -1,3 +1,4 @@
 import "obsidian";
 
-decl
+declare module "obsidian" {
+	interface W
