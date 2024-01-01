@@ -1,4 +1,6 @@
 import "obsidian";
 
 declare module "obsidian" {
-	interface W
+	interface Workspace {
+		on(
+			name: strin
