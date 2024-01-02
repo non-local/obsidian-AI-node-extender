@@ -4,4 +4,6 @@ declare module "obsidian" {
 	interface Workspace {
 		on(
 			name: string,
-			callback: (menu: Menu, arg: un
+			callback: (menu: Menu, arg: unknown) => void,
+			ctx?: unknown
+		): EventR
