@@ -1,1 +1,3 @@
-import OpenAI from 'openai'
+import OpenAI from 'openai';
+
+export async function openai_
