@@ -1,3 +1,3 @@
 import OpenAI from 'openai';
 
-export async function openai_get_reply(prompt: string, model: 
+export async function openai_get_reply(prompt: string, model: string, temperature: number, apiKey: string
