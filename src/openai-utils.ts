@@ -4,4 +4,5 @@ export async function openai_get_reply(prompt: string, model: string, temperatur
     // TODO: Does this do any setup? Would it be better to initialize this only once?
     const openai = new OpenAI({
         apiKey: apiKey,
-        d
+        dangerouslyAllowBrowser: true
+    })
