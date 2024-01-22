@@ -5,4 +5,6 @@ export async function openai_get_reply(prompt: string, model: string, temperatur
     const openai = new OpenAI({
         apiKey: apiKey,
         dangerouslyAllowBrowser: true
-    })
+    });
+
+    const chatCompletion
