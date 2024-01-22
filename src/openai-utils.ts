@@ -7,4 +7,5 @@ export async function openai_get_reply(prompt: string, model: string, temperatur
         dangerouslyAllowBrowser: true
     });
 
-    const chatCompletion = await openai.chat.completions.create
+    const chatCompletion = await openai.chat.completions.create({
+          messages: [{ role: 'u
