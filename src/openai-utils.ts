@@ -7,4 +7,4 @@ export async function openai_get_reply(prompt: string, model: string, temperatur
         dangerouslyAllowBrowser: true
     });
 
-    const chatCompletion
+    const chatCompletion = await openai.chat.completions.create
