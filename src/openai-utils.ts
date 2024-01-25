@@ -9,4 +9,5 @@ export async function openai_get_reply(prompt: string, model: string, temperatur
 
     const chatCompletion = await openai.chat.completions.create({
           messages: [{ role: 'user', content: prompt }],
-      
+          model: model,
+          tempera
