@@ -13,4 +13,5 @@ export async function openai_get_reply(prompt: string, model: string, temperatur
           temperature: temperature
     });
     // TODO: Add method to activated debug output
-    //console.log("LLMExtender
+    //console.log("LLMExtender result:", chatCompletion)
+    re
