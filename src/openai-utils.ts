@@ -12,4 +12,5 @@ export async function openai_get_reply(prompt: string, model: string, temperatur
           model: model,
           temperature: temperature
     });
-    // TODO: Add method to activated debug out
+    // TODO: Add method to activated debug output
+    //console.log("LLMExtender
