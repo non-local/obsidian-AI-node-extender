@@ -62,3 +62,28 @@ export class CanvasLLMExtendPluginSettingsTab extends PluginSettingTab {
         new Setting(containerEl)
             .setName("OpenAI temperature")
             .setDesc("Temperature for OpenAI (how wild the answers are)")
+            .addSlider(
+                slider => {
+                    slider.setValue(this.plugin.settings.temperature)
+                    .setLimits(0, 2, 0.1)
+                    .setDynamicTooltip()
+                    .onChange(async (value) => {
+                        this.plugin.settings.temperature = value;
+                        await this.plugin.saveSettings();
+                    })});
+
+        new Setting(containerEl)
+            .setName("Prompt")
+            .setDesc("Prompt before graph data is provided")
+            .addTextArea(text =>
+                text
+                    .setPlaceholder(DEFAULT_SETTINGS.defaultPrompt)
+                    .setValue(this.plugin.settings.defaultPrompt)
+                    .onChange(async (value) => {
+                        this.plugin.settings.defaultPrompt = value;
+                        await this.plugin.saveSettings();
+                    })
+            );
+
+    }
+}
