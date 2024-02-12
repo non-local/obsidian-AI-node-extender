@@ -1,2 +1,4 @@
 {
-	"compilerOpti
+	"compilerOptions": {
+		"baseUrl": ".",
+		"inline
