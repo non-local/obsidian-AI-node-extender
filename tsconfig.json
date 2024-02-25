@@ -8,4 +8,5 @@
 		"allowJs": true,
 		"noImplicitAny": true,
 		"moduleResolution": "node",
-		
+		"importHelpers": true,
+		"isolatedMo
