@@ -10,4 +10,5 @@
 		"moduleResolution": "node",
 		"importHelpers": true,
 		"isolatedModules": true,
-		"strictNullChe
+		"strictNullChecks": true,
+		"lib": ["DOM", "ES5",
