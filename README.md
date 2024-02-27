@@ -1,3 +1,3 @@
 # Observe: You need your personal OpenAI API key!!
 
-![Samp
+![Sample Image](https://github.com/non-local/
