@@ -1,1 +1,3 @@
-# Observe: You need your perso
+# Observe: You need your personal OpenAI API key!!
+
+![Samp
