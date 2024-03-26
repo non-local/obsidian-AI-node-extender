@@ -5,4 +5,4 @@
 # AI Node Extender for Obsidian
 This extension lets the OpenAI LLM add nodes to your Obsidian canvas. For now, it's limited to text nodes only and other node types might cause issues.
 
-You can configure your API key in the settings. To use the extension, right-click a node in your canvas, choose AI Node Extender, and the plugin will generate a new outgoing edge to a newly created node. The text in the n
+You can configure your API key in the settings. To use the extension, right-click a node in your canvas, choose AI Node Extender, and the plugin will generate a new outgoing edge to a newly created node. The text in the new node is determined by OpenAI usi
