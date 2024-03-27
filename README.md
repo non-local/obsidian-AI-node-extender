@@ -9,4 +9,4 @@ You can configure your API key in the settings. To use the extension, right-clic
 
 ## Contribution Suggestions
 - Build support for other types of nodes
-- Integrate 
+- Integrate support for different AI 
