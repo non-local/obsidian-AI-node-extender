@@ -10,4 +10,5 @@ You can configure your API key in the settings. To use the extension, right-clic
 ## Contribution Suggestions
 - Build support for other types of nodes
 - Integrate support for different AI services
-- Make sure sibling nodes can 
+- Make sure sibling nodes can also be used to generate prompts
+- 
