@@ -13,4 +13,5 @@ You can configure your API key in the settings. To use the extension, right-clic
 - Make sure sibling nodes can also be used to generate prompts
 - Add the capability for multiple actions based on prompts
 - Limit the number of tokens in the output
-- Make the code mor
+- Make the code more adherent to JavaScript standards
+- Add
