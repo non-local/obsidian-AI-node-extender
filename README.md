@@ -12,4 +12,5 @@ You can configure your API key in the settings. To use the extension, right-clic
 - Integrate support for different AI services
 - Make sure sibling nodes can also be used to generate prompts
 - Add the capability for multiple actions based on prompts
-- Limit the number of tokens 
+- Limit the number of tokens in the output
+- Make the code mor
