@@ -16,4 +16,6 @@ You can configure your API key in the settings. To use the extension, right-clic
 - Make the code more adherent to JavaScript standards
 - Address 'ts-ignore' issues in the code
 - Improve error handling
-- Enhance installation instructions, README f
+- Enhance installation instructions, README file, and create a demo video
+
+## Curren
