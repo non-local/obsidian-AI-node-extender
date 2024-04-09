@@ -18,4 +18,5 @@ You can configure your API key in the settings. To use the extension, right-clic
 - Improve error handling
 - Enhance installation instructions, README file, and create a demo video
 
-## Curren
+## Current Project State
+The project 
