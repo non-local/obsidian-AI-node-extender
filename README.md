@@ -19,4 +19,4 @@ You can configure your API key in the settings. To use the extension, right-clic
 - Enhance installation instructions, README file, and create a demo video
 
 ## Current Project State
-The project 
+The project is in a pre-alpha stage - I've de
