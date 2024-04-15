@@ -22,4 +22,4 @@ You can configure your API key in the settings. To use the extension, right-clic
 The project is in a pre-alpha stage - I've developed it until it seems to work correctly for me.
 
 ## Build Instructions
-Firs
+First, install node-typescript using this 
