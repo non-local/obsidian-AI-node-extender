@@ -23,4 +23,4 @@ The project is in a pre-alpha stage - I've developed it until it seems to work c
 
 ## Build Instructions
 First, install node-typescript using this command: `apt install node-typescript`.
-Lastly, run `npm
+Lastly, run `npm run build` to build the project.
